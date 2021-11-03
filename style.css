@@ -146,7 +146,7 @@ header .ul li {
 
 .title p {
   color: white;
-  line-height: 1.5rem;
+  line-height: 120%;
   font-size: 1.5rem;
   text-align: center;
 }
