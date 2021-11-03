@@ -81,6 +81,7 @@ header .ul li {
   visibility: hidden;
   transition: all 0.6s ease;
   z-index: 95;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .moblie a {
@@ -220,7 +221,7 @@ header .ul li {
 .s-title h1 {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 0 1.5rem 2rem 1.5rem;
 }
 
 .s-title h1 mark {
@@ -231,6 +232,7 @@ header .ul li {
 .s-title p {
   font-size: 1.5rem;
   font-weight: 300;
+  margin: 0 1.5rem;
 }
 
 .s-flex {
