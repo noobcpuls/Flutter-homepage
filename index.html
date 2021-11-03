@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/flutter-logo-24.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flutter</title>
+  </head>
+  <body>
+    <header>
+      <ul class="ul">
+        <li class="logo">
+          <i class="bx bxl-flutter" onclick="dropdown()"></i>
+        </li>
+        <a href="#gohome"><li>HOME</li></a>
+        <a href="#goabout"><li>ABOUT</li></a>
+        <a href="#goshowcase"><li>SHOWCASE</li></a>
+        <a href="#gocontact"><li>CONTACT</li></a>
+        <li class="search-i">
+          <p>Search...</p>
+          <i class="bx bx-search" style="display: inline-block"></i>
+        </li>
+      </ul>
+      <ul class="moblie">
+        <a href="#gohome"><li>HOME</li></a>
+        <a href="#goabout"><li>ABOUT</li></a>
+        <a href="#goshowcase"><li>SHOWCASE</li></a>
+        <a href="#gocontact"><li>CONTACT</li></a>
+      </ul>
+    </header>
+    <main>
+      <article class="title" id="gohome">
+        <h1>Flutter, The Fastest App Create Tool</h1>
+        <div>Made by <img src="./img/logo-google.svg" alt="google" /></div>
+        <p>
+          Flutter is Google's UI toolkit for building beautiful, natively
+          compiled applications for mobile, web, desktop, and embedded devices
+          from a single codebase.
+        </p>
+      </article>
+      <article class="pros" id="goabout">
+        <div class="pros-b">
+          <img
+            src="./img/undraw_programmer_re_owql.svg"
+            alt="Fast Development"
+          />
+          <div class="pros-t">
+            <p class="h1">Fast Development</p>
+            <div>
+              <p>
+                Paint your app to life in milliseconds with Stateful Hot Reload.
+                Use a rich set of fully-customizable widgets to build native
+                interfaces in minutes.
+              </p>
+              <p>
+                Flutter's hot reload helps you quickly and easily experiment,
+                build UIs, add features, and fix bugs faster. Experience
+                sub-second reload times without losing state on emulators,
+                simulators, and hardware.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="pros-b">
+          <img
+            src="./img/undraw_revenue_re_2bmg.svg"
+            alt="Expressive and Flexible UI"
+          />
+          <div class="pros-t" id="mid">
+            <p class="h1">Expressive and Flexible UI</p>
+            <div>
+              <p>
+                Quickly ship features with a focus on native end-user
+                experiences. Layered architecture allows for full customization,
+                which results in incredibly fast rendering and expressive and
+                flexible designs.
+              </p>
+              <p>
+                Delight your users with Flutter's built-in beautiful Material
+                Design and Cupertino (iOS-flavor) widgets, rich motion APIs,
+                smooth natural scrolling, and platform awareness.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="pros-b">
+          <img
+            src="./img/undraw_web_devices_re_m8sc.svg"
+            alt="Native Performance"
+          />
+          <div class="pros-t">
+            <p class="h1">Native Performance</p>
+            <div>
+              <p>
+                Flutter’s widgets incorporate all critical platform differences
+                such as scrolling, navigation, icons and fonts, and your Flutter
+                code is compiled to native ARM machine code using
+                <a href="https://dart.dev/overview#platform"
+                  >Dart's native compilers.</a
+                >
+              </p>
+              <p>
+                Flutter’s widgets incorporate all critical platform differences
+                such as scrolling, navigation, icons and fonts to provide full
+                native performance on both iOS and Android.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="showcase" id="goshowcase">
+        <div class="s-title">
+          <h1>Apps take flight with <mark>Flutter</mark></h1>
+          <p>
+            See how customers are using Flutter to make beautiful apps in record
+            time
+          </p>
+        </div>
+        <div class="s-flex">
+          <div class="s-index" id="facebook">
+            <i class="bx bxl-facebook-square"></i>
+            <p>
+              Flutter enabled <span>Facebook</span> to build the My Facebook app
+              for iOS and Android from a single codebase. The app is fully
+              developed in-house by Facebook using Flutter.
+            </p>
+          </div>
+          <div class="s-index" id="youtube">
+            <i class="bx bxl-youtube"></i>
+            <p>
+              Flutter helped <span>YouTube</span> in its mission to end the
+              complexity of traditional banks and put financial control back in
+              the hands of the user.
+            </p>
+          </div>
+          <div class="s-index" id="apple">
+            <i class="bx bxl-apple"></i>
+            <p>
+              <span>Apple</span> uses Flutter throughout the company for several
+              apps including AITeacher, Now Live, K12, Mr. Translator, QiDian,
+              and DingDang.
+            </p>
+          </div>
+          <div class="s-index" id="javascript">
+            <i class="bx bxl-javascript"></i>
+            <p>
+              Flutter helps power an ever-growing number of
+              <span>Javascript</span> Assistant apps.
+            </p>
+          </div>
+          <div class="s-index" id="redux">
+            <i class="bx bxl-redux"></i>
+            <p>
+              The <span>Redux</span> app is a powerful tool for browsing,
+              buying, and selling vehicles directly from consumers’ phones.
+            </p>
+          </div>
+          <div class="s-index" id="firebase">
+            <i class="bx bxl-firebase"></i>
+            <p>
+              The Flutter plugin for our <span>Firebase</span> enables
+              developers to build apps for merchants that take in-person
+              payments.
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="footer" id="gocontact">
+        <div class="f-index share">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+          <a href="https://www.facebook.com/"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/?hl=ko">
+            <i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://twitter.com/?lang=ko"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://discord.com/"><i class="bx bxl-discord-alt"></i></a>
+          <a href="https://www.pinterest.co.kr/"
+            ><i class="bx bxl-pinterest-alt"></i
+          ></a>
+        </div>
+        <div class="f-index contact">
+          <p class="f-title" id="c-title">Contacts</p>
+          <p>
+            <span>Address:</span><br />
+            798 South Park Avenue, New York, USA
+          </p>
+          <p><span>Email:</span><br />iop789007@gmail.com</p>
+          <p><span>Phones:</span><br />1.555.652.258 or 1.55.652.268</p>
+        </div>
+        <div class="f-index association">
+          <p class="f-title">Association</p>
+          <a href="https://www.ebay.com/"> <p>Ebay</p> </a>
+          <a href="https://reflectly.app/">
+            <p>Reflectly</p>
+          </a>
+          <a href="https://ads.google.com/intl/ko_kr/home/">
+            <p>Google Ads</p>
+          </a>
+          <a href="https://insighttimer.com/"> <p>Insight Timer</p> </a>
+          <a href="https://stadia.google.com/"> <p>STADIA</p> </a>
+          <a href="https://www.grab.com/sg/"> <p>Grab</p> </a>
+          <a href="https://www.baidu.com/"> <p>Baidu</p> </a>
+          <a href="https://www.alibabagroup.com/en/global/home">
+            <p>Alibaba Gruop</p>
+          </a>
+          <a href="https://www.mgmresorts.com/en.html"> <p>MGM RESORTS</p> </a>
+          <a href="https://www.nytimes.com/"><p>The NewYork Times</p></a>
+        </div>
+        <div class="f-index news">
+          <p class="f-title">Newsletter</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque
+            temporibus.
+          </p>
+          <div class="f-input">
+            <i class="bx bxl-telegram"></i>
+            <input type="text" placeholder="Enter your email address..." />
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2021 Flutter’s All rights reserved.</p>
+        <p>All homepage contents except my e-mail are fiction.</p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    function dropdown() {
+      document.querySelector(".moblie").classList.toggle("active");
+    }
+  </script>
+</html>
