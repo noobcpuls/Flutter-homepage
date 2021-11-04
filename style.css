@@ -453,7 +453,7 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
   .footer {
     flex-direction: column;
     align-items: center;
@@ -492,6 +492,9 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  :root {
+    font-size: calc(10px + 1.5vw);
+  }
   header .ul {
     background: var(--bg-winter);
     position: fixed;
@@ -536,7 +539,23 @@ footer {
     margin: 0 1rem;
   }
 
+  .s-index {
+    height: auto;
+    padding: 1rem 0;
+  }
+
   .copyright p {
     margin: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  :root {
+    font-size: calc(8px + 1.5vw);
+  }
+
+  .pros img {
+    width: 12rem;
+    height: 12rem;
   }
 }
