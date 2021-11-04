@@ -520,6 +520,10 @@ footer {
     top: 5rem;
   }
 
+  .title h1 {
+    font-size: 3.25rem;
+  }
+
   .title p {
     line-height: 150%;
   }
